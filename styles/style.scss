@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import "header";
+@import "intro";
+@import "features";
+@import "productive";
+@import "testimonial";
+@import "color";
+@import "footer";
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $main-color;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background: $header-color;
+}
+
+.a {
+    background: $header-color;
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.b {
+    background: $main-color;
+}
+
+.c {
+    display: flex;
+}

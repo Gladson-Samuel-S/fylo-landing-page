@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    padding: 5rem;
+    .contents {
+        padding: 5rem 5rem;
+    }
+    .title {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 2rem;
+    }
+    .content {
+        padding-bottom: 2rem;
+    }
+    a {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+}
