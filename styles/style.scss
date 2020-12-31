@@ -20,15 +20,20 @@ body {
 }
 
 header {
-    background: $header-color;
+    height: 10vh;
+    max-width: 100%;
+    background-color: $header-color;
+}
+
+@media only screen and (min-width: 500px) {
+    header {
+        max-height: 10vh;
+        min-width: 100%;
+    }
 }
 
 .a {
     background: $header-color;
-    background-image: url(/images/bg-curvy-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom;
 }
 
 .b {

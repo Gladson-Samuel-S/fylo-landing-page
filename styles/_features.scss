@@ -4,13 +4,22 @@
     gap: 7rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    padding: 5rem 16rem;
+    padding: 5rem 18.3rem;
     .feature-title {
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 15px 0rem 0px 0px;
     }
     .feature-content {
         padding: 15px 0px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .features {
+        padding: 2rem 2rem;
+        .feature-title {
+            font-size: 1.3rem;
+        }
     }
 }

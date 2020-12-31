@@ -5,13 +5,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    img {
+        height: auto;
+        max-width: 100%;
+    }
     .intro-title {
         font-size: 2.5rem;
         font-weight: 700;
         padding: 40px 35px 40px 0px;
-    }
-    .intro-accany {
-        text-align: center;
     }
     .intro-content {
         font-weight: 400;
@@ -27,9 +32,28 @@
         font-size: 1rem;
         font-weight: 700;
         font-family: 'Raleway', sans-serif;
-        background: hsl(176, 68%, 64%);
+        background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
         padding: 20px 90px;
         border-radius: 5rem;
         outline: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .intro {
+        background-image: url(/images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        .intro-title {
+            font-size: 1.5rem;
+            padding: 40px 35px 40px 0px;
+        }
+        .intro-content {
+            font-size: 1rem;
+        }
+        .get-started {
+            padding: 20px 130px;
+        }
     }
 }

@@ -1,6 +1,10 @@
 .container {
     display: flex;
     padding: 5rem;
+    .graphic {
+        height: auto;
+        max-width: 100%;
+    }
     .contents {
         padding: 5rem 5rem;
     }
@@ -15,5 +19,15 @@
     a {
         text-decoration: underline;
         color: #ffffff;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+        .contents {
+            padding: 2rem 2rem;
+        }
     }
 }
